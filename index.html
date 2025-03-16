@@ -8,11 +8,31 @@
 </head>
 <body>
     
-    <main>
+    <main id="main">
         <h1>🤖</h1>
         <h1>Интерфейс для Бота</h1>
         <p>Это страниция связанно с ботом вы можете отправить какое нибуды данный от сюда и бот обрабатовает данный</p>
-        <button>Передать данный</button>
+        <button id="push-data-btn">Передать данный</button>
+    </main>
+
+    <main id="main-form">
+        <h1>🤖</h1>
+        <h2>Заполните форму</h2>
+        <form id="form">
+            <div class="inp">
+                <label for="name">Имя</label>
+                <input id="name" type="text" required>
+            </div>
+            <div class="inp">
+                <label for="username">Никнаме</label>
+                <input id="username" type="text" required>
+            </div>
+            <div class="inp">
+                <label for="password">Пароль</label>
+                <input id="password" type="password" required>
+            </div>
+            <button>Отправить</button>
+        </form>
     </main>
 
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
