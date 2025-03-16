@@ -51,5 +51,6 @@ button {
 }
 
 button:hover {
-    background: var(--tg-secondary-bg-color);
+    background: var(--tg-theme-button-text-color);
+    color: var(--tg-theme-button-color);
 }
