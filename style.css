@@ -45,7 +45,8 @@ main p {
 button {
     width: fit-content;
     font-weight: 600;
-    padding: 8px;
+    padding: 9px;
+    font-size: 18px;
     border-radius: 3px;
     border: none;
     cursor: pointer;
