@@ -69,7 +69,8 @@ button:active {
     width: 100%;
     border: 1px solid var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-    padding: 8px;
+    padding: 9px;
+    color: var(--tg-theme-text-color);
 }
 
 #form .inp {
