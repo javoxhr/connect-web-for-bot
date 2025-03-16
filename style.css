@@ -71,6 +71,8 @@ button:active {
     background: var(--tg-theme-bg-color);
     padding: 9px;
     color: var(--tg-theme-text-color);
+    outline: none;
+    border-radius: 5px;
 }
 
 #form .inp {
