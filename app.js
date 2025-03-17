@@ -14,6 +14,12 @@ pushDataBtn.addEventListener("click", () => {
 
 const form = document.querySelector("#form")
 
+const dataInBot = document.querySelector("#data-in-bot")
+
+tg.onEvent('webAppData', function (data) {
+    dataInBot.textContent = JSON.stringify(data, null, 2)
+})
+
 form.addEventListener("submit", (e) => {
     e.preventDefault()
     const getName = document.querySelector("#name").value
