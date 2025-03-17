@@ -18,11 +18,13 @@ form.addEventListener("submit", (e) => {
     e.preventDefault()
     const getName = document.querySelector("#name").value
     const getUserName = document.querySelector("#username").value
-    const getPassword = document.querySelector("#password").value
+    const getStars = document.querySelector("#stars").value
+    const getCategory = document.querySelector("#category").value
     let data = {
-        name: getName,
-        username: getUserName,
-        password: getPassword
+        title: getName,
+        desc: getUserName,
+        stars: getStars,
+        category: getCategory
     }
 
     tg.sendData(JSON.stringify(data))
